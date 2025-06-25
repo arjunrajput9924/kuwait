@@ -509,3 +509,229 @@ body{
 .font8{
     color: #CEAF7F;
 }
+#Home1{
+    color: #CEAF7F;
+}
+.mainr4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.r4{
+    border: 2px solid #CEAF7F;
+    height: 36px;
+    width: 220px;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    background-color: #CEAF7F;
+    color: brown;
+    border-radius: 15px;
+}
+.r4 h5{
+    background-color: #CEAF7F;
+    align-items: center;
+    margin-top: 5px;
+
+    
+}
+.title{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     gap: 10px;
+    height: 50px;
+    width: 170px;
+    background-color: brown;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+.title i{
+    color: #CEAF7F;
+    margin-top: 17px;
+}
+.titlem1{
+    padding-left: 120px;
+}
+.title h5{
+    margin-bottom: 3px;
+    background-color: brown;
+}
+.title i{
+    margin-bottom: 3px;
+    background-color: brown;
+}
+.title h5{
+    margin-top: 12px;
+}
+
+.card1 img{
+     height: 230px;
+}
+.body1{
+    color: #CEAF7F;
+}
+.g5{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #252a2b;
+}
+.g5 p{
+    margin-bottom: 0;
+    background-color: #252a2b;
+}
+.g5 h4{
+     margin-top: 10px;
+}
+.box1{
+    background-color: #252a2b;
+    height: 450px;
+
+    border-radius: 20px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   
+}
+.card1{
+    height: 380px;
+    width: 580px !important;
+   margin-top: 35px;
+}
+.card2 img{
+     height: 230px;
+     
+}
+.body2{
+    color: #CEAF7F;
+}
+.g6{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #252a2b;
+}
+.g6 p,h4{
+    margin-bottom: 0;
+    background-color: #252a2b;
+}
+.g6 h4{
+    margin-top: 10px;
+}
+.box2{
+    background-color: #252a2b;
+    height: 450px;
+    border-radius: 20px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   
+}
+.card2{
+    height: 380px;
+    width: 580px !important;
+   margin-top: 35px;
+}
+.aj1 i{
+    color: gold;
+    margin-bottom: 10px;
+}
+.aj1 img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.aj1{
+    align-items: center;
+    text-align: center;
+    gap: 6px;
+}
+.aj1 h3{
+    color: white;
+    margin-bottom: 4px;
+}
+.aj2 i{
+    color: gold;
+    margin-bottom: 10px;
+}
+.aj2 img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.aj2{
+    align-items: center;
+    text-align: center;
+    gap: 6px;
+}
+.aj2 h3{
+    color: white;
+    margin-bottom: 4px;
+}
+.aj3 i{
+    color: gold;
+    margin-bottom: 10px;
+}
+.aj3 img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.aj3{
+    align-items: center;
+    text-align: center;
+    gap: 6px;
+}
+.aj3 h3{
+    color: white;
+    margin-bottom: 4px;
+}
+.aj4 i{
+    color: gold;
+    margin-bottom: 10px;
+}
+.aj4 img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.aj4{
+    align-items: center;
+    text-align: center;
+    gap: 6px;
+}
+.aj4 h3{
+    color: white;
+    margin-bottom: 4px;
+}
+.aj5 i{
+    color: gold;
+    margin-bottom: 10px;
+}
+.aj5 img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.aj5{
+    align-items: center;
+    text-align: center;
+    gap: 6px;
+}
+.aj5 h3{
+    color: white;
+    margin-bottom: 4px;
+}
+.cc1 img{
+    height: 500px;
+}
