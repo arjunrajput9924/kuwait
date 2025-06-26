@@ -616,7 +616,7 @@ body{
     gap: 10px;
     background-color: #252a2b;
 }
-.g6 p,h4{
+.g6 p{
     margin-bottom: 0;
     background-color: #252a2b;
 }
@@ -734,4 +734,53 @@ body{
 }
 .cc1 img{
     height: 500px;
+}
+.s11{
+    height: 30px;
+    width: 200px;
+    background-color: #252a2b;
+    text-align: center;
+    border-radius: 40px;
+}
+.s11 i{
+    color: #CEAF7F;
+    background-color: #252a2b;
+}
+.s11 span{
+    margin-left: 5px;
+    background-color: #252a2b;
+}
+.s22{
+    height: 30px;
+    width: 200px;
+    background-color: #252a2b;
+    text-align: center;
+    border-radius: 40px;
+}
+.s22 i{
+    color: #CEAF7F;
+    background-color: #252a2b;
+   
+}
+.s22 span{
+    margin-left: 5px;
+    background-color: #252a2b;
+}
+.s1{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.bold p{
+    margin-top: 19px;
+}
+.s1{
+    margin: 0;
+}
+.bold h2{
+    margin: 0;
+}
+.cc1{
+   text-align: start;
+  
 }
