@@ -805,3 +805,23 @@ body{
 .chef1 h1{
     margin-top: 100px;
 }
+.f1 i{
+    font-size: 25px;
+    color: #CEAF7F;
+    margin-top: 10px;
+}
+.f2 i{
+    font-size: 25px;
+    color: #CEAF7F;
+    margin-top: 10px;
+}
+.f3 i{
+    font-size: 25px;
+    color: #CEAF7F;
+    margin-top: 9px;
+}
+.img1 img{
+    height: 440px;
+    width: 700px;
+    padding-right: 50px;
+}
