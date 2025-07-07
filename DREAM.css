@@ -872,7 +872,7 @@ body{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    
+    width: 400px !important;
 }
 .m4 i{
  
@@ -889,4 +889,23 @@ body{
     justify-content: center;
     margin-bottom: 15px;
     color: brown;
+}
+.t1{
+    text-align: center;
+}
+
+.i1 img{
+    height: 460px;
+    width: 900px;
+    border-radius: 30px;
+}
+.i2 img{
+    height: 220px;
+    width: 450px;
+    border-radius: 20px;
+}
+.i2{
+    display: flex;
+    flex-direction: column;
+    gap: 18px !important;
 }
