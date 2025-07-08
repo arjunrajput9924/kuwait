@@ -909,3 +909,36 @@ body{
     flex-direction: column;
     gap: 18px !important;
 }
+
+.btnend{
+   display: flex;
+ margin-top: 0;
+ margin-bottom: 0;
+ 
+   align-items: center;
+}
+
+.alni{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+}
+
+.av1 img{
+    height: 230px;
+}
+.icmain{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.ic1{
+    display: flex;
+    flex-direction: row;
+    gap: 10px !important;
+}
+.ic2{
+    display: flex;
+    flex-direction: row;
+    gap: 10px !important;
+}
