@@ -1,3 +1,9 @@
+.cent{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
 .head1 h1{
     font-size: 60px;
 }
@@ -941,4 +947,67 @@ body{
     display: flex;
     flex-direction: row;
     gap: 10px !important;
+}
+.bd1{
+    border-radius: 7px ;
+}
+.cdn11{
+    display: flex ;
+    flex-direction: row !important;
+}
+.bd2 h5{
+    margin-top: 24px !important;
+    margin-bottom: 8px !important;
+}
+.map1{
+   margin-top: 50px;
+   padding: 0 !important;
+}
+
+.map1 iframe{
+    padding: 0;
+}
+.mk1 h1{
+      margin-bottom: 25px;  
+}
+.head4 i{
+    height: 50px;
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+}
+.mk1{
+    height: 300px;
+}
+.u1 ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px !important;
+    font-size: 18px;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.p1 span{
+    color: #CEAF7F;
+}
+
+.nav-item a{
+    color: white;
+    text-transform: capitalize;
+}
+
+.fa-arrow-up{
+    background-color: #CEAF7F;
+}
+
+.topbtn{
+     background-color: #CEAF7F !important;
+     border: 2px solid #CEAF7F !important;
 }
