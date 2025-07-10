@@ -14,9 +14,14 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
   <div class="cent  d-flex justify-content-center">
     <nav class="navbar navbar-expand-lg navbar-dark bg-light marg ">
       <div class="container-fluid marg ">
@@ -33,19 +38,19 @@
               <a class="nav-link active"  aria-current="page" href="#" id="Home1">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">about</a>
+              <a class="nav-link" href="#about">about</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">menu</a>
+              <a class="nav-link" href="#menu">menu</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Book a Table</a>
+              <a class="nav-link" href="#book">Book a Table</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">chefs</a>
+              <a class="nav-link" href="#chefs">chefs</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">events</a>
+              <a class="nav-link" href="#events">events</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
@@ -70,7 +75,7 @@
               </ul>
             </li>
             <li class="nav-item" id="a11">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
             <button type="button" class="btn btn-primary btn-sm b1">Book a Table</button>
           </ul>
@@ -79,11 +84,12 @@
       </div>
     </nav>
   </div>
+ 
 
-  <div class="container-fluid main1">
-    <div class="row">
+  <div class="container-fluid main1" id="home1">
+    <div class="row pdi">
 
-      <div class="col-md-6">
+      <div class="col-md-6" data-aos="fade-up" data-aos-duration="1500">
         <div class="a1 h-100 d-flex flex-column gap-4" style="padding-left: 50px;">
           <span id="span1">RESERVATION OPEN</span>
           <div class="head2">
@@ -108,7 +114,7 @@
         </div>
       </div>
 
-      <div class="col-md-6">
+      <div class="col-md-6" data-aos="fade-up" data-aos-duration="1500">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner img2">
             <div class="carousel-item active">
@@ -139,7 +145,7 @@
 
   <div class="container-fluid main2">
     <div class="row">
-      <div class="col-md-6" style="padding-left: 50px;">
+      <div class="col-md-6" style="padding-left: 50px;" data-aos="fade-up" data-aos-duration="1200">
         <h2>Our Culinary Journey</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim <br> in eros elementum
           tristique.</p>
@@ -156,7 +162,7 @@
             Executive Chef</p>
         </div>
       </div>
-      <div class="col-md-6 second">
+      <div class="col-md-6 second" data-aos="fade-up" data-aos-duration="1200">
 
         <img src="showcase-4.webp" alt="" height="380px" width="650px">
 
@@ -165,7 +171,7 @@
     </div>
   </div>
   <div class="container d-flex flex-row justify-content-around main3">
-    <div class="col-md-3 m3">
+    <div class="col-md-3 m3" data-aos="fade-up" data-aos-duration="1000">
       <div class="c1" style="width: 18rem;">
 
         <div class="card-body c11">
@@ -176,7 +182,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-3 m3">
+    <div class="col-md-3 m3" data-aos="fade-up" data-aos-duration="1500">
       <div class="c1" style="width: 18rem;">
 
         <div class="card-body c11">
@@ -187,7 +193,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-3 m3">
+    <div class="col-md-3 m3" data-aos="fade-up" data-aos-duration="2000">
       <div class="c1" style="width: 18rem;">
 
         <div class="card-body c11">
@@ -198,7 +204,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-3 m3">
+    <div class="col-md-3 m3" data-aos="fade-up" data-aos-duration="2500">
       <div class="c1" style="width: 18rem;">
 
         <div class="card-body c11">
@@ -212,19 +218,19 @@
   </div>
   <div class="container co1">
     <div class="row">
-      <div class="col-md-3 ex1">
+      <div class="col-md-3 ex1" data-aos="fade-up" data-aos-duration="1000">
         <h1>15+</h1>
         <p>Years Experience</p>
       </div>
-      <div class="col-md-3 ex1">
+      <div class="col-md-3 ex1" data-aos="fade-up" data-aos-duration="1500">
         <h1>5</h1>
         <p>Expert Chefs</p>
       </div>
-      <div class="col-md-3 ex1">
+      <div class="col-md-3 ex1" data-aos="fade-up" data-aos-duration="2000"  >
         <h1>3</h1>
         <p>Culinary Awards</p>
       </div>
-      <div class="col-md-3 ex1">
+      <div class="col-md-3 ex1" data-aos="fade-up" data-aos-duration="2500">
         <h1>15000+</h1>
         <p>Happy Customers</p>
       </div>
@@ -232,13 +238,13 @@
   </div>
 
 
-  <div class="container co2">
-    <div class="row r2">
+  <div class="container co2" id="menu">
+    <div class="row r2" data-aos="fade-up" data-aos-duration="1000">
       <h1>Menu</h1>
       <p text-align-center>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
 
     </div>
-    <div class="r3">
+    <div class="r3" data-aos="fade-up" data-aos-duration="1500">
       <h3 class="h11">All</h3>
       <h3 class="h22">Starters</h3>
       <h3 class="h33">Main course</h3>
@@ -247,9 +253,9 @@
     </div>
   </div>
    <div class="container co3">
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="fade-up" data-aos-duration="1000">
             <div class="row gap-4">
-              <div class="menu1">
+              <div class="menu1" data-aos="fade-up" data-aos-duration="1200">
                 
                 <img src="starter-2.webp" alt="" height="90px" width="100px">
                 
@@ -259,7 +265,7 @@
                <h5 class="font1">$8.95</h5>
                </div>
               </div>
-               <div class="menu2">
+               <div class="menu2" data-aos="fade-up" data-aos-duration="1400">
                 
                 <img src="starter3.webp" alt="" height="90px" width="100px">
                 
@@ -269,7 +275,7 @@
                <h5 class="font2">$18.95</h5>
                </div>
               </div>
-               <div class="menu3">
+               <div class="menu3" data-aos="fade-up" data-aos-duration="1600">
                 
                 <img src="dessert-2.webp" alt="" height="90px" width="100px">
                 
@@ -279,7 +285,7 @@
                <h5 class="font3">$9.95</h5>
                </div>
               </div>
-               <div class="menu4">
+               <div class="menu4" data-aos="fade-up" data-aos-duration="1800">
                 
                 <img src="drink-3.webp" alt="" height="90px" width="100px">
                 
@@ -291,9 +297,9 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="fade-up" data-aos-duration="1000">
              <div class="row gap-4">
-              <div class="menu5">
+              <div class="menu5" data-aos="fade-up" data-aos-duration="1200">
                 
                 <img src="starter-2.webp" alt="" height="90px" width="100px">
                 
@@ -303,7 +309,7 @@
                <h5 class="font5">$8.95</h5>
                </div>
               </div>
-               <div class="menu6">
+               <div class="menu6" data-aos="fade-up" data-aos-duration="1400">
                 
                 <img src="starter3.webp" alt="" height="90px" width="100px">
                 
@@ -313,7 +319,7 @@
                <h5 class="font6">$18.95</h5>
                </div>
               </div>
-               <div class="menu7">
+               <div class="menu7" data-aos="fade-up" data-aos-duration="1600">
                 
                 <img src="dessert-2.webp" alt="" height="90px" width="100px">
                 
@@ -323,7 +329,7 @@
                <h5 class="font7">$9.95</h5>
                </div>
               </div>
-               <div class="menu8">
+               <div class="menu8" data-aos="fade-up" data-aos-duration="1800">
                 
                 <img src="drink-3.webp" alt="" height="90px" width="100px">
                 
@@ -337,20 +343,20 @@
           </div>
          
    </div>
-   <div class="mainr4">
-   <div class="r4">
+   <div class="mainr4" data-aos="fade-up" data-aos-duration="1000">
+   <div class="r4" data-aos="fade-up" data-aos-duration="1400">
    <h5>Download Full Menu</h5>
    </div>
    </div>
-   <div class="titlem1">
-   <div class="title">
+   <div class="titlem1" data-aos="fade-up" data-aos-duration="1400">
+   <div class="title" data-aos="fade-up" data-aos-duration="1000">
      <i class="fa-solid fa-award "></i>
    <h5>Chef's Specials</h5>
    </div>
    </div>
    <div class="container">
     <div class="row">
-    <div class="col-md-6 ">
+    <div class="col-md-6 " data-aos="fade-up" data-aos-duration="2000">
       <div class="box1">
       <div class="card1" style="width: 35rem;">
   <img src="image1.webp" class="card-img-top im1" alt="...">
@@ -362,7 +368,7 @@
 </div>
     </div>
     </div>
-     <div class="col-md-6 ">
+     <div class="col-md-6 " data-aos="fade-up" data-aos-duration="3000">
       <div class="box2">
       <div class="card2" style="width: 35rem;">
   <img src="image2.webp" class="card-img-top im1" alt="...">
@@ -378,7 +384,7 @@
     <br>
     <br>
    </div>
-   <div id="cardCarousel" class="carousel slide" data-bs-ride="carousel">
+   <div id="cardCarousel" class="carousel slide" data-bs-ride="carousel" data-aos="fade-up" data-aos-duration="2500">
   <div class="carousel-inner">
     <!-- First Slide (Active) -->
     <div class="carousel-item active aj1">
@@ -493,14 +499,14 @@
 </div>
 
 
-<div class="chef1 mt-5 text-center">
+<div class="chef1 mt-5 text-center" data-aos="fade-up" data-aos-duration="1000">
   <h1>Chefs</h1>
   <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
 </div>
 <div class="container-fluid mt-5 maind1">
   <div class="row">
     <div class="col-md-1"></div>
-  <div class="col-md-5">
+  <div class="col-md-5" data-aos="fade-up" data-aos-duration="1500">
 <div class="card cc1" style="width: 35rem; height: 66rem;">
   <img src="chef-1.webp" class="card-img-top" alt="...">
   <div class="card-body bold">
@@ -525,7 +531,7 @@
   </div>
 </div>
 
-<div class="col-md-6 d-flex flex-column gap-5">
+<div class="col-md-6 d-flex flex-column gap-5" data-aos="fade-up" data-aos-duration="2000">
   <div class="row">
     <div class="col-md-6">
      <div class=" card c14" style="width: 20rem;">
@@ -550,7 +556,7 @@
   </div>
  
    <div class="d2 row">
-    <div class="col-md-6">
+    <div class="col-md-6" data-aos="fade-up" data-aos-duration="2500">
      <div class="card c14" style="width: 20rem;">
   <img src="chef-4.webp" class="card-img-top" alt="...">
   <div class="card-body b2">
@@ -560,7 +566,7 @@
   </div>
 </div>
 </div>
-<div class="col-md-6">
+<div class="col-md-6" data-aos="fade-up" data-aos-duration="3000">
  <div class="card c15" style="width: 20rem;">
   <img src="chef-5.webp" class="card-img-top" alt="...">
   <div class="card-body b2">
@@ -577,7 +583,7 @@
 </div>
 <div class="container mt-5">
   <div class="row">
-  <div class="col-md-6">
+  <div class="col-md-6" data-aos="fade-up" data-aos-duration="1000">
     <h1>Book Your Table</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec <br>ullamcorper mattis, pulvinar dapibus leo. Aliquam erat volutpat.</p>
     <div class="f1 d-flex flex-row gap-3">
@@ -607,13 +613,13 @@ Boston, MA 02110</span>
       </div>
     </div>
   </div>
-  <div class="col-md-6 img1">
+  <div class="col-md-6 img1" data-aos="fade-up" data-aos-duration="2000">
     <img src="showcase-7.webp" alt="">
   </div>
 </div>
 </div>
 </div>
-<div class="container formmain mt-5">
+<div class="container formmain mt-5" data-aos="fade-up" data-aos-duration="1400">
   <h1 style="background-color: #252a2b;">Book A Table</h1>
   <span style="background-color: #252a2b;margin-bottom: 35px;">Please fill the form below to make a reservation</span>
     <div class="form1 d-flex flex-row justify-content-center">
@@ -651,15 +657,15 @@ Boston, MA 02110</span>
      </div>
 </div>
 <div class="container-fluid" style="padding: 130px;">
-  <div class="title1 text-center mt-5">
+  <div class="title1 text-center mt-5" data-aos="fade-up" data-aos-duration="1000">
   <h1>Location</h1>
   <span>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</span>
   </div>
   <div class="row mt-4 d-flex justify-content-center">
-  <div class="col-md-6 if5">
+  <div class="col-md-6 if5" data-aos="fade-up" data-aos-duration="1000">
     <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d235000.92151003692!2d72.39490855181646!3d23.027832830734326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1stech%20ahmedabad!5e0!3m2!1sen!2sin!4v1751617336427!5m2!1sen!2sin" width="650" height="670" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
-   <div class="col-md-6" style="background-color: #252a2b;padding: 20px;border-radius: 20px;">
+   <div class="col-md-6" style="background-color: #252a2b;padding: 20px;border-radius: 20px;" data-aos="fade-up" data-aos-duration="2000">
     <h1 style="background-color: #252a2b;">Book Your Table</h1>
     <p style="background-color: #252a2b;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec <br>ullamcorper mattis, pulvinar dapibus leo. Aliquam erat volutpat.</p>
      <div class="f2 d-flex flex-row gap-3 mt-5" style="background-color: #252a2b;">
@@ -697,7 +703,7 @@ Brunch Hours
 Sat & Sun, 10:00 AM - 2:00 PM</span>
       </div>
     </div>
-   <div class="btn mt-4">
+   <div class="btn mt-4" >
     <button style="height: 50px;width: 280px;border: 0;background-color: #CEAF7F;">Make a Reservation</button>
     <button style="height: 50px;width: 280px;border: 2px solid #CEAF7F;background-color: transparent;color: #CEAF7F;">Contact Us</button>
    </div>
@@ -705,11 +711,11 @@ Sat & Sun, 10:00 AM - 2:00 PM</span>
   </div>
   </div>
 </div>
-<div class="container t1">
+<div class="container t1" data-aos="fade-up" data-aos-duration="1000">
   <h1 style="font-style: inherit;font-size: 60px;margin-bottom: 30px;">Create Unforgettable Moments</h1>
   <p style="font-size: 20px;margin-bottom: 40px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin gravida nibh vel velit auctor aliquet. <br> Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum.</p>
   <div class="row gap-5">
-    <div class="col-md-4 m4" style="background-color: #252a2b;border-radius: 20px;">
+    <div class="col-md-4 m4" style="background-color: #252a2b;border-radius: 20px;" data-aos="fade-up" data-aos-duration="1600">
       <div class="card c12" style="background-color: #252a2b;border: 0;">
 
         <div class="card-body c11 gap-3" style="background-color: #252a2b;">
@@ -721,7 +727,7 @@ Sat & Sun, 10:00 AM - 2:00 PM</span>
         </div>
       </div>
     </div>
-    <div class="col-md-4 m4" style="background-color: #252a2b;border-radius: 20px;">
+    <div class="col-md-4 m4" style="background-color: #252a2b;border-radius: 20px;" data-aos="fade-up" data-aos-duration="2200">
       <div class="card c13" style="background-color: #252a2b;border: 0;">
 
         <div class="card-body c11 gap-3 " style="background-color: #252a2b;">
@@ -732,7 +738,7 @@ Sat & Sun, 10:00 AM - 2:00 PM</span>
         </div>
       </div>
     </div>
-    <div class="col-md-4 m4" style="background-color: #252a2b;border-radius: 20px;">
+    <div class="col-md-4 m4" style="background-color: #252a2b;border-radius: 20px;" data-aos="fade-up" data-aos-duration="2600">
       <div class="card c14" style="background-color: #252a2b;border: 0;">
 
         <div class="card-body c11 gap-3" style="background-color: #252a2b;border: 0;">
@@ -747,33 +753,33 @@ Sat & Sun, 10:00 AM - 2:00 PM</span>
 </div>
   <div class="container-fluid" style="padding: 150px;">
     <div class="row">
-    <div class="col-md-8 i1">
+    <div class="col-md-8 i1" data-aos="fade-up" data-aos-duration="1400">
       <img src="event-1.webp" alt="" >
     </div>
-    <div class="col-md-4 i2 ">
+    <div class="col-md-4 i2 " data-aos="fade-up" data-aos-duration="2000">
       <img src="event-2.webp" alt="">
       <img src="event-3.webp" alt="">
     </div>
   </div>
   </div>
-  <div class="container g1" style="border: 0 solid white;height: 200px;background-color: #9f8253; padding-top: 40px; padding-bottom: 50px;padding: 40px;border-radius: 20px;">
+  <div class="container g1" style="border: 0 solid white;height: 200px;background-color: #9f8253; padding-top: 40px; padding-bottom: 50px;padding: 40px;border-radius: 20px;" data-aos="fade-up" data-aos-duration="1400">
     <div class="row">
     <div class="col-md-10 alni" style="background-color: #9f8253;">
       
        <h1 style="background-color: #9f8253;">Ready to plan your special event?</h1>
        <span style="font-size: 17px;background-color: #9f8253;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed justo magna. Contact us today to <br> discuss your requirements.</span>
     </div>
-    <div class="col-md-2 btnend  " style="background-color: #9f8253;">
+    <div class="col-md-2 btnend  " style="background-color: #9f8253;" >
       
       <button class="" style="height: 50px;width: 180px;border: 0;background-color: brown;border-radius: 15px;">Reserve Venue</button>
     
     </div>
     </div>
   </div>
-  <div class="container mt-5 mb-5 " style="text-align: center;">
+  <div class="container mt-5 mb-5 " style="text-align: center;" data-aos="fade-up" data-aos-duration="1000">
     <h1 style="font-size: 45px;">Upcoming Featured Events</h1>
     <div class="row mt-5">
-    <div class="col-md-6">
+    <div class="col-md-6" data-aos="fade-up" data-aos-duration="1600">
       <div class="card mb-3" style="max-width: 740px;border: 0;">
   <div class="row g-0">
     <div class="col-md-4 av1">
@@ -799,13 +805,13 @@ Sat & Sun, 10:00 AM - 2:00 PM</span>
   </div>
 </div>
     </div>
-     <div class="col-md-6">
+     <div class="col-md-6" data-aos="fade-up" data-aos-duration="2200">
       <div class="card mb-3 cd1" style="max-width: 740px;border: 0;border-radius: 20px;">
   <div class="row g-0">
-    <div class="col-md-4 av1">
+    <div class="col-md-4 av1" data-aos="fade-up" data-aos-duration="1400">
       <img src="e1.webp" class="img-fluid rounded-start" alt="...">
     </div>
-    <div class="col-md-8" style="border-radius: 20px;">
+    <div class="col-md-8" style="border-radius: 20px;" data-aos="fade-up" data-aos-duration="1900">
       <div class="card-body bd1" style="background-color: #252a2b;height: 230px;text-align: start;">
         <h2 class="card-title" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size: 33px;background-color: #252a2b;">Gourmet Tasting Night</h2>
         <div class="icmain" style="background-color: #252a2b;">
@@ -827,14 +833,14 @@ Sat & Sun, 10:00 AM - 2:00 PM</span>
     </div>
     </div>
   </div>
-  <div class="mj1 text-center mb-5">
+  <div class="mj1 text-center mb-5" data-aos="fade-up" data-aos-duration="1000">
   <h1 style="font-size: 40px;">Contact</h1>
     <span style="font-size: 20px;margin-bottom: 20px;">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</span>
     </div>
   <div class="container">
     
     <div class="row">
-    <div class="col-md-4" style="height: 130px;">
+    <div class="col-md-4" style="height: 130px;" data-aos="fade-up" data-aos-duration="1400">
     
   <div class="row g-0" style="height: 120px;background-color: #252a2b;border-radius: 20px;">
     <div class="col-md-2" style="align-items: center;display: flex;flex-direction: column;justify-content: center;margin-bottom: 25px;background-color: #252a2b;border-radius: 20px;">
@@ -851,7 +857,7 @@ Sat & Sun, 10:00 AM - 2:00 PM</span>
   
 </div>
 </div>
- <div class="col-md-4" style="height: 130px;">
+ <div class="col-md-4" style="height: 130px;" data-aos="fade-up" data-aos-duration="1800">
     
   <div class="row g-0" style="height: 120px;background-color: #252a2b;border-radius: 20px;">
     <div class="col-md-2" style="align-items: center;display: flex;flex-direction: column;justify-content: center;margin-bottom: 25px;background-color: #252a2b;border-radius: 20px;">
@@ -869,7 +875,7 @@ Sat & Sun, 10:00 AM - 2:00 PM</span>
   
 </div>
 </div>
- <div class="col-md-4" style="height: 130px;">
+ <div class="col-md-4" style="height: 130px;" data-aos="fade-up" data-aos-duration="2200">
     
   <div class="row g-0" style="height: 120px;background-color: #252a2b;border-radius: 20px;">
     <div class="col-md-2" style="align-items: center;display: flex;flex-direction: column;justify-content: center;margin-bottom: 25px;background-color: #252a2b;border-radius: 20px;">
@@ -889,12 +895,12 @@ Sat & Sun, 10:00 AM - 2:00 PM</span>
 </div>
 </div>
   </div>
-  <div class="container-fluid map1">
+  <div class="container-fluid map1" data-aos="fade-up" data-aos-duration="3000">
       <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d235000.92151003692!2d72.39490855181646!3d23.027832830734326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1stech%20ahmedabad!5e0!3m2!1sen!2sin!4v1751617336427!5m2!1sen!2sin" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
       </div>
   <div class="container mt-5">
     <div class="row">
-    <div class="col-md-5 mk1">
+    <div class="col-md-5 mk1" data-aos="fade-up" data-aos-duration="1400">
    <h1>KuwaitRestaurant</h1>
   <span> Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</span>
    <div class="head4 gap-2 d-flex mt-4">
@@ -904,7 +910,7 @@ Sat & Sun, 10:00 AM - 2:00 PM</span>
             <i class="fa-brands fa-youtube"></i>
           </div>
     </div>
-    <div class="col-md-2 u1">
+    <div class="col-md-2 u1" data-aos="fade-up" data-aos-duration="1800">
       <h3 style="margin-top: 10px;">Useful Links</h3>
       <ul>
         <li>Home</li>
@@ -914,7 +920,7 @@ Sat & Sun, 10:00 AM - 2:00 PM</span>
         <li>Privacy Policy</li>
       </ul>
     </div>
-     <div class="col-md-2 u1" style="padding-left: 30px;">
+     <div class="col-md-2 u1" style="padding-left: 30px;" data-aos="fade-up" data-aos-duration="2200">
       <h3 style="margin-top: 10px;">Our Services</h3>
       <ul style="width: 200px;">
         <li>Web design</li>
@@ -924,7 +930,7 @@ Sat & Sun, 10:00 AM - 2:00 PM</span>
         <li>Graphic Design</li>
       </ul>
     </div>
-    <div class="col-md-3" style="padding-left: 60px;">
+    <div class="col-md-3" style="padding-left: 60px;" data-aos="fade-up" data-aos-duration="2600">
       <h3 style="margin-top: 10px;">Contact Us</h3>
       <span>A108 Adam Street <br>
             New York, NY 535022 <br>
@@ -936,11 +942,11 @@ Sat & Sun, 10:00 AM - 2:00 PM</span>
     </div>
   </div>    
   </div>
-  <div class="container text-center">
+  <div class="container text-center" data-aos="fade-up" data-aos-duration="1000">
     <p class="p1">© Copyright kuwaitRestaurant All Rights Reserved <br> Designed by <span>ARJUN</span></p>
   </div>
 
-  <button onclick="scrollToTop()" id="backToTopBtn" class="btn btn-primary topbtn" style="position: fixed; bottom: 40px; right: 40px; display: none;">
+  <button onclick="scrollToTop()" id="backToTopBtn" class="btn btn-primary topbtn" style="position: fixed; bottom: 40px; right: 40px; display: none;" data-aos="fade-up" data-aos-duration="1000">
   <i class="fa-solid fa-arrow-up"></i>
 </button>
 
